@@ -9,11 +9,13 @@ include <./includes.scad>
 
 
 // example key
-dcs_row(5) legend("⇪", size=9) key();
+//dcs_row(5) legend("⇪", size=9) key();
+
+cherry_row(3) key();
 
 // example row
-/* for (x = [0:1:4]) {
-  translate_u(0,-x) dcs_row(x) key();
+/* for (x = [0:1:5]) {
+  translate_u(0,-x) cherry_row(x) key();
 } */
 
 // example layout
